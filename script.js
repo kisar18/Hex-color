@@ -47,14 +47,6 @@ button.onclick = function() {
     HexadecimalColor(b1)
     HexadecimalColor(b2)
     
-    console.log(r1.value)
-    console.log(r2.value)
-    console.log(g1.value)
-    console.log(g2.value)
-    console.log(b1.value)
-    console.log(b2.value)
-    
-    
     var HexColor = "#" + r1.value + r2.value + g1.value + g2.value + b1.value + b2.value
     console.log(HexColor) 
     
